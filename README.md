@@ -1,4 +1,4 @@
-# Iuni-Ljus - In RAM super-normalized tree database with default journaling
+# Iuni-Ljus - In Ram Folded Tree Database with Default Journaling
 
 Executable is pre-compiled for Debian 12.
 To compile the src code (which is header only for simplicity) use g++ or use the prepared bash script.
