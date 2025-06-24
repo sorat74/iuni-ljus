@@ -31,24 +31,24 @@ Notice the software is in alfa version.
 ## Cli help
 
 Cli options
-  CD     : change path of action
-  help   : this help
-  UP     : go to upper node
-  RO     : go to root
-  SET <...nodes>        : set nodes *
-  GET <...nodes>        : get nodes within specified path *
-  LS <...nodes> : same as GET <...nodes>
-  IS     : check if path node exist *
-  count <...nodes>      : count number of occurrencies
-  DEL    : delete leaf node of the specified path *
-  UPDATE <...path> <old node> <new node> : updates (if exists) the old node in the path with the new node *
-  DROP   : drop db *
-  TREE  : show tree within the specified path *
-  TRE    : same as TREE
-  TREEN : show tree within the specified path with nodes' ids
-  TREN  : same as TREEN
-  test   : test server connection
-  COMPACT        : compact database journal
+ * CD     : change path of action
+ * help   : this help
+ * UP     : go to upper node
+ * RO     : go to root
+ * SET <...nodes>        : set nodes *
+ * GET <...nodes>        : get nodes within specified path *
+ * LS <...nodes> : same as GET <...nodes>
+ * IS     : check if path node exist *
+ * count <...nodes>      : count number of occurrencies
+ * DEL    : delete leaf node of the specified path *
+ * UPDATE <...path> <old node> <new node> : updates (if exists) the old node in the path with the new node *
+ * DROP   : drop db *
+ * TREE  : show tree within the specified path *
+ * TRE    : same as TREE
+ * TREEN : show tree within the specified path with nodes' ids
+ * TREN  : same as TREEN
+ * test   : test server connection
+ * COMPACT        : compact database journal
 
   \* Available in the SDKs too
 
