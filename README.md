@@ -5,14 +5,14 @@ To compile the src code (which is header only for simplicity) use g++ or use the
 
 IUNI-LJUS v0.11.0
 Options:
-  version          : show version and exit
-  cli              : run cli
-  cli <cmd>        : run one command in the cli, in the default db
-  cli @<db> <cmd>  : run one command in the cli, in the <dbname> db
-  start            : start server
-  [no params]      : start server
-  local            : start server and run cli in the same process
-  help             : this help
+  - version          : show version and exit
+  - cli              : run cli
+  - cli <cmd>        : run one command in the cli, in the default db
+  - cli @<db> <cmd>  : run one command in the cli, in the <dbname> db
+  - start            : start server
+  - \[no params\]      : start server
+  - local            : start server and run cli in the same process
+  - help             : this help
   
 Notice the software is in alfa version.
 
