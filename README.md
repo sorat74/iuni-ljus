@@ -7,8 +7,8 @@ IUNI-LJUS v0.11.0
 Options:
   - version          : show version and exit
   - cli              : run cli
-  - cli <cmd>        : run one command in the cli, in the default db
-  - cli @<db> <cmd>  : run one command in the cli, in the <dbname> db
+  - cli \<cmd\>        : run one command in the cli, in the default db
+  - cli @\<db\> \<cmd\>  : run one command in the cli, in the <dbname> db
   - start            : start server
   - \[no params\]      : start server
   - local            : start server and run cli in the same process
