@@ -29,8 +29,8 @@ Notice the software is in alfa version.
 - a full-ish JS SDK is provided (a half written C++ one too)
 
 ## To start
-echo "Launching the server" 
-nohup ./iuni-ljus & 
+echo "Launching the server"  
+nohup ./iuni-ljus &  
 echo "Using the cli" 
 ./iuni-ljus cli 
 SET products pencil price 1.50 
