@@ -29,14 +29,15 @@ Notice the software is in alfa version.
 - a full-ish JS SDK is provided (a half written C++ one too)
 
 ## To start
-echo "Launching the server"
-nohup ./iuni-ljus &
-echo "Using the cli"
-./iuni-ljus cli
-SET products pencil price 1.50
-SET products rubber price 0.90
-SET products pen price 3.00
-GET products
+echo "Launching the server" 
+nohup ./iuni-ljus & 
+echo "Using the cli" 
+./iuni-ljus cli 
+SET products pencil price 1.50 
+SET products rubber price 0.90 
+SET products pen price 3.00 
+GET products 
+
 
 
 ## Cli help
